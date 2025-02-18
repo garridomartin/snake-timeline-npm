@@ -1,0 +1,21 @@
+{
+  "name": "snake-timeline",
+  "version": "1.0.1",
+  "description": "It's a timeline with a snake format",
+  "main": "SnakeTimeline.jsx",
+  "author": "Martin Garrido",
+  "homepage": "https://snake-timeline.vercel.app/",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "echo 'Build script'"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.475.0"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

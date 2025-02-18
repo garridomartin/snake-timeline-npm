@@ -1,0 +1,12 @@
+*
+
+!templates/
+!scripts/
+!types/
+!components/
+!package.json
+!README.md
+.git
+.github
+.vscode
+node_modules
