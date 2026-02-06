@@ -1,0 +1,32 @@
+{
+  "name": "snake-timeline",
+  "version": "1.1.6",
+  "description": "A snake-like timeline component CLI installer",
+  "main": "./dist/index.js",
+  "homepage": "https://snake-timeline.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garridomartin/snake-timeline.git"
+  },
+  "bin": {
+    "snake-timeline": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.3"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
